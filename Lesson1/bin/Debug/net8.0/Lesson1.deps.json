@@ -10,6 +10,7 @@
         "dependencies": {
           "LessonTask1": "1.0.0",
           "LessonTask10": "1.0.0",
+          "LessonTask11": "1.0.0",
           "LessonTask2": "1.0.0",
           "LessonTask3": "1.0.0",
           "LessonTask4": "1.0.0",
@@ -50,6 +51,18 @@
         },
         "runtime": {
           "LessonTask10.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "LessonTask11/1.0.0": {
+        "dependencies": {
+          "LessonTask": "1.0.0",
+          "MethodsClassLibrary": "1.0.0"
+        },
+        "runtime": {
+          "LessonTask11.dll": {
             "assemblyVersion": "1.0.0",
             "fileVersion": "1.0.0.0"
           }
@@ -176,6 +189,11 @@
       "sha512": ""
     },
     "LessonTask10/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "LessonTask11/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

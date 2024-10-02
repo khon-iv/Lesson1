@@ -9,6 +9,7 @@
 
     <ItemGroup>
       <ProjectReference Include="..\LessonTask10\LessonTask10.csproj" />
+      <ProjectReference Include="..\LessonTask11\LessonTask11.csproj" />
       <ProjectReference Include="..\LessonTask1\LessonTask1.csproj" />
       <ProjectReference Include="..\LessonTask2\LessonTask2.csproj" />
       <ProjectReference Include="..\LessonTask3\LessonTask3.csproj" />
