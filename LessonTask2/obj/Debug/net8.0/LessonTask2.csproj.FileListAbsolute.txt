@@ -1,0 +1,16 @@
+C:\Users\khon.iv\RiderProjects\Lesson1\LessonTask2\bin\Debug\net8.0\LessonTask2.deps.json
+C:\Users\khon.iv\RiderProjects\Lesson1\LessonTask2\bin\Debug\net8.0\LessonTask2.dll
+C:\Users\khon.iv\RiderProjects\Lesson1\LessonTask2\bin\Debug\net8.0\LessonTask2.pdb
+C:\Users\khon.iv\RiderProjects\Lesson1\LessonTask2\bin\Debug\net8.0\LessonTask.dll
+C:\Users\khon.iv\RiderProjects\Lesson1\LessonTask2\bin\Debug\net8.0\LessonTask.pdb
+C:\Users\khon.iv\RiderProjects\Lesson1\LessonTask2\obj\Debug\net8.0\LessonTask2.csproj.AssemblyReference.cache
+C:\Users\khon.iv\RiderProjects\Lesson1\LessonTask2\obj\Debug\net8.0\LessonTask2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\khon.iv\RiderProjects\Lesson1\LessonTask2\obj\Debug\net8.0\LessonTask2.AssemblyInfoInputs.cache
+C:\Users\khon.iv\RiderProjects\Lesson1\LessonTask2\obj\Debug\net8.0\LessonTask2.AssemblyInfo.cs
+C:\Users\khon.iv\RiderProjects\Lesson1\LessonTask2\obj\Debug\net8.0\LessonTask2.csproj.CoreCompileInputs.cache
+C:\Users\khon.iv\RiderProjects\Lesson1\LessonTask2\obj\Debug\net8.0\LessonTask2.sourcelink.json
+C:\Users\khon.iv\RiderProjects\Lesson1\LessonTask2\obj\Debug\net8.0\LessonTa.1B1B3CD4.Up2Date
+C:\Users\khon.iv\RiderProjects\Lesson1\LessonTask2\obj\Debug\net8.0\LessonTask2.dll
+C:\Users\khon.iv\RiderProjects\Lesson1\LessonTask2\obj\Debug\net8.0\refint\LessonTask2.dll
+C:\Users\khon.iv\RiderProjects\Lesson1\LessonTask2\obj\Debug\net8.0\LessonTask2.pdb
+C:\Users\khon.iv\RiderProjects\Lesson1\LessonTask2\obj\Debug\net8.0\ref\LessonTask2.dll

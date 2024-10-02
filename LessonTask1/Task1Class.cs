@@ -19,14 +19,12 @@ namespace LessonTask1
         public override void Run()
         {
             PrintTaskInfo();
-            Console.WriteLine("Введите первое число");
-            int a = MethodsClass.GetNumber();
-            Console.WriteLine("Введите второе число (не 0)");
-            int b = MethodsClass.GetNumber();
+            int a = MethodsClass.GetNumber("Введите первое число");
+            int b = MethodsClass.GetNumber("Введите второе число (не 0)");
             while (b == 0)
             {
-                Console.WriteLine("Нельзя делить на 0. Введите второе число");
-                b = MethodsClass.GetNumber();
+                Console.WriteLine("Нельзя делить на 0");
+                b = MethodsClass.GetNumber("Введите второе число (не 0)");
             }
             
             int quotient = a / b;

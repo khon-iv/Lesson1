@@ -15,13 +15,13 @@ public class Task6Class : TaskBaseClass
         "один для его переворачивания и один для вывода массива в конце.\n" +
         "Метод GenerateNumbers должен вернуть массив из 10 случайных чисел (бонусное условие - метод должен принимать в качестве аргумента длину желаемого массива). " +
         "Метод PrintNumbers должен использовать цикл for или foreach для вывода каждого элемента массива. " +
-        "Метод Reverse будет делать основную работу - переворачивать массив.\n\nРеализуйте все три метода.";
+        "Метод Reverse будет делать основную работу - переворачивать массив.\nРеализуйте все три метода.";
 
     public override void Run()
     {
         PrintTaskInfo();
-        Console.WriteLine("Введите размер массива");
-        var arraySize = MethodsClass.GetNumber();
+        // минимальный размер массива 1
+        var arraySize = MethodsClass.GetNumber("Введите размер массива", 1);
         var numbers = GenerateNumbers(arraySize);
         Console.WriteLine("Сгенерированный массив:");
         PrintNumbers(numbers);

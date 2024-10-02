@@ -8,98 +8,111 @@
     ".NETCoreApp,Version=v8.0": {
       "Lesson1/1.0.0": {
         "dependencies": {
-          "Task1": "1.0.0",
-          "Task2": "1.0.0",
-          "Task3": "1.0.0",
-          "Task4": "1.0.0",
-          "Task5": "1.0.0",
-          "Task6": "1.0.0"
+          "LessonTask1": "1.0.0",
+          "LessonTask2": "1.0.0",
+          "LessonTask3": "1.0.0",
+          "LessonTask4": "1.0.0",
+          "LessonTask5": "1.0.0",
+          "LessonTask6": "1.0.0",
+          "LessonTask7": "1.0.0"
         },
         "runtime": {
           "Lesson1.dll": {}
         }
       },
+      "LessonTask/1.0.0": {
+        "runtime": {
+          "LessonTask.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "LessonTask1/1.0.0": {
+        "dependencies": {
+          "LessonTask": "1.0.0",
+          "MethodsClassLibrary": "1.0.0"
+        },
+        "runtime": {
+          "LessonTask1.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "LessonTask2/1.0.0": {
+        "dependencies": {
+          "LessonTask": "1.0.0"
+        },
+        "runtime": {
+          "LessonTask2.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "LessonTask3/1.0.0": {
+        "dependencies": {
+          "LessonTask": "1.0.0",
+          "MethodsClassLibrary": "1.0.0"
+        },
+        "runtime": {
+          "LessonTask3.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "LessonTask4/1.0.0": {
+        "dependencies": {
+          "LessonTask": "1.0.0"
+        },
+        "runtime": {
+          "LessonTask4.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "LessonTask5/1.0.0": {
+        "dependencies": {
+          "LessonTask": "1.0.0",
+          "MethodsClassLibrary": "1.0.0"
+        },
+        "runtime": {
+          "LessonTask5.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "LessonTask6/1.0.0": {
+        "dependencies": {
+          "LessonTask": "1.0.0",
+          "MethodsClassLibrary": "1.0.0"
+        },
+        "runtime": {
+          "LessonTask6.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "LessonTask7/1.0.0": {
+        "dependencies": {
+          "LessonTask": "1.0.0",
+          "MethodsClassLibrary": "1.0.0"
+        },
+        "runtime": {
+          "LessonTask7.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
       "MethodsClassLibrary/1.0.0": {
         "runtime": {
           "MethodsClassLibrary.dll": {
-            "assemblyVersion": "1.0.0",
-            "fileVersion": "1.0.0.0"
-          }
-        }
-      },
-      "Task/1.0.0": {
-        "runtime": {
-          "Task.dll": {
-            "assemblyVersion": "1.0.0",
-            "fileVersion": "1.0.0.0"
-          }
-        }
-      },
-      "Task1/1.0.0": {
-        "dependencies": {
-          "MethodsClassLibrary": "1.0.0",
-          "Task": "1.0.0"
-        },
-        "runtime": {
-          "Task1.dll": {
-            "assemblyVersion": "1.0.0",
-            "fileVersion": "1.0.0.0"
-          }
-        }
-      },
-      "Task2/1.0.0": {
-        "dependencies": {
-          "Task": "1.0.0"
-        },
-        "runtime": {
-          "Task2.dll": {
-            "assemblyVersion": "1.0.0",
-            "fileVersion": "1.0.0.0"
-          }
-        }
-      },
-      "Task3/1.0.0": {
-        "dependencies": {
-          "MethodsClassLibrary": "1.0.0",
-          "Task": "1.0.0"
-        },
-        "runtime": {
-          "Task3.dll": {
-            "assemblyVersion": "1.0.0",
-            "fileVersion": "1.0.0.0"
-          }
-        }
-      },
-      "Task4/1.0.0": {
-        "dependencies": {
-          "Task": "1.0.0"
-        },
-        "runtime": {
-          "Task4.dll": {
-            "assemblyVersion": "1.0.0",
-            "fileVersion": "1.0.0.0"
-          }
-        }
-      },
-      "Task5/1.0.0": {
-        "dependencies": {
-          "MethodsClassLibrary": "1.0.0",
-          "Task": "1.0.0"
-        },
-        "runtime": {
-          "Task5.dll": {
-            "assemblyVersion": "1.0.0",
-            "fileVersion": "1.0.0.0"
-          }
-        }
-      },
-      "Task6/1.0.0": {
-        "dependencies": {
-          "MethodsClassLibrary": "1.0.0",
-          "Task": "1.0.0"
-        },
-        "runtime": {
-          "Task6.dll": {
             "assemblyVersion": "1.0.0",
             "fileVersion": "1.0.0.0"
           }
@@ -113,42 +126,47 @@
       "serviceable": false,
       "sha512": ""
     },
+    "LessonTask/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "LessonTask1/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "LessonTask2/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "LessonTask3/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "LessonTask4/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "LessonTask5/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "LessonTask6/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "LessonTask7/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
     "MethodsClassLibrary/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "Task/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "Task1/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "Task2/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "Task3/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "Task4/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "Task5/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "Task6/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

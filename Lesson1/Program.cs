@@ -1,10 +1,11 @@
 ﻿using LessonTask1;
 using LessonTask2;
 using LessonTask3;
+using LessonTask4;
 using LessonTask5;
 using LessonTask6;
+using LessonTask7;
 using MethodsClassLibrary;
-using Task4;
 
 namespace Lesson1;
 
@@ -14,8 +15,7 @@ class Lesson1
     {
         while (true)
         {
-            Console.WriteLine("Enter a number: ");
-            var numberOfTask = MethodsClass.GetNumberInRange(1, 6);
+            var numberOfTask = MethodsClass.GetNumber("Введите номер задания",1, 7);
             
             switch (numberOfTask)
             {
@@ -36,6 +36,9 @@ class Lesson1
                     break;
                 case 6: 
                     new Task6Class().Run();
+                    break;
+                case 7: 
+                    new Task7Class().Run();
                     break;
             }
         }

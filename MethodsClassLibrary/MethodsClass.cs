@@ -2,25 +2,23 @@
 
 public static class MethodsClass
 {
-    public static int GetNumber()
+    public static int GetNumber(string message, int min = Int32.MinValue, int max = Int32.MaxValue)
     {
+        Console.WriteLine(message);
         var inputLine = Console.ReadLine();
         while (!Int32.TryParse(inputLine, out int num))
         {
-            Console.WriteLine("Введенная строка не является числом \nВведите число");
+            Console.WriteLine("Введены некорректные данные \n");
             inputLine = Console.ReadLine();
         }
 
-        return Int32.Parse(inputLine);
-    }
-
-    public static int GetNumberInRange(int min, int max)
-    {
-        var number = GetNumber();
-        while (number < min || number > max)
+        var number = Int32.Parse(inputLine);
+        if (number < min || number > max)
         {
-            number = GetNumber();
+            Console.WriteLine("Введены некорректные данные \n");
+            number = GetNumber( message, min, max);
         }
+        
         return number;
     }
 

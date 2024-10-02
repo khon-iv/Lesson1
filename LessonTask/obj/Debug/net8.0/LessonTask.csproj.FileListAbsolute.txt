@@ -1,0 +1,12 @@
+C:\Users\khon.iv\RiderProjects\Lesson1\LessonTask\bin\Debug\net8.0\LessonTask.deps.json
+C:\Users\khon.iv\RiderProjects\Lesson1\LessonTask\bin\Debug\net8.0\LessonTask.dll
+C:\Users\khon.iv\RiderProjects\Lesson1\LessonTask\bin\Debug\net8.0\LessonTask.pdb
+C:\Users\khon.iv\RiderProjects\Lesson1\LessonTask\obj\Debug\net8.0\LessonTask.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\khon.iv\RiderProjects\Lesson1\LessonTask\obj\Debug\net8.0\LessonTask.AssemblyInfoInputs.cache
+C:\Users\khon.iv\RiderProjects\Lesson1\LessonTask\obj\Debug\net8.0\LessonTask.AssemblyInfo.cs
+C:\Users\khon.iv\RiderProjects\Lesson1\LessonTask\obj\Debug\net8.0\LessonTask.csproj.CoreCompileInputs.cache
+C:\Users\khon.iv\RiderProjects\Lesson1\LessonTask\obj\Debug\net8.0\LessonTask.sourcelink.json
+C:\Users\khon.iv\RiderProjects\Lesson1\LessonTask\obj\Debug\net8.0\LessonTask.dll
+C:\Users\khon.iv\RiderProjects\Lesson1\LessonTask\obj\Debug\net8.0\refint\LessonTask.dll
+C:\Users\khon.iv\RiderProjects\Lesson1\LessonTask\obj\Debug\net8.0\LessonTask.pdb
+C:\Users\khon.iv\RiderProjects\Lesson1\LessonTask\obj\Debug\net8.0\ref\LessonTask.dll

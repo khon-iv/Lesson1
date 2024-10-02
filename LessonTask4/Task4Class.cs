@@ -1,6 +1,6 @@
 ﻿using LessonTask;
 
-namespace Task4;
+namespace LessonTask4;
 
 public class Task4Class : TaskBaseClass
 {
