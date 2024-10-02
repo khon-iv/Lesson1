@@ -2,6 +2,12 @@
 
 public static class MethodsClass
 {
+    public static void PrintTaskInfo(string taskName, string taskDescription)
+    {
+        Console.WriteLine(taskName);
+        Console.WriteLine(taskDescription + "\n");
+    }
+    
     public static int GetNumber(string message, int min = Int32.MinValue, int max = Int32.MaxValue)
     {
         Console.WriteLine(message);

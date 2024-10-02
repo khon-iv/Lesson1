@@ -16,6 +16,7 @@
       <ProjectReference Include="..\LessonTask6\LessonTask6.csproj" />
       <ProjectReference Include="..\LessonTask7\LessonTask7.csproj" />
       <ProjectReference Include="..\LessonTask8\LessonTask8.csproj" />
+      <ProjectReference Include="..\LessonTask9\LessonTask9.csproj" />
     </ItemGroup>
 
 </Project>
