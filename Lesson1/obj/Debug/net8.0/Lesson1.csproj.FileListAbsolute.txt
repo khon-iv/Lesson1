@@ -33,3 +33,5 @@ C:\Users\khon.iv\RiderProjects\Lesson1\Lesson1\bin\Debug\net8.0\LessonTask5.pdb
 C:\Users\khon.iv\RiderProjects\Lesson1\Lesson1\bin\Debug\net8.0\LessonTask6.pdb
 C:\Users\khon.iv\RiderProjects\Lesson1\Lesson1\bin\Debug\net8.0\LessonTask7.pdb
 C:\Users\khon.iv\RiderProjects\Lesson1\Lesson1\bin\Debug\net8.0\LessonTask.pdb
+C:\Users\khon.iv\RiderProjects\Lesson1\Lesson1\bin\Debug\net8.0\LessonTask8.dll
+C:\Users\khon.iv\RiderProjects\Lesson1\Lesson1\bin\Debug\net8.0\LessonTask8.pdb

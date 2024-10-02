@@ -108,6 +108,20 @@
           "bin/placeholder/LessonTask7.dll": {}
         }
       },
+      "LessonTask8/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "LessonTask": "1.0.0",
+          "MethodsClassLibrary": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/LessonTask8.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/LessonTask8.dll": {}
+        }
+      },
       "MethodsClassLibrary/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
@@ -161,6 +175,11 @@
       "path": "../LessonTask7/LessonTask7.csproj",
       "msbuildProject": "../LessonTask7/LessonTask7.csproj"
     },
+    "LessonTask8/1.0.0": {
+      "type": "project",
+      "path": "../LessonTask8/LessonTask8.csproj",
+      "msbuildProject": "../LessonTask8/LessonTask8.csproj"
+    },
     "MethodsClassLibrary/1.0.0": {
       "type": "project",
       "path": "../MethodsClassLibrary/MethodsClassLibrary.csproj",
@@ -175,7 +194,8 @@
       "LessonTask4 >= 1.0.0",
       "LessonTask5 >= 1.0.0",
       "LessonTask6 >= 1.0.0",
-      "LessonTask7 >= 1.0.0"
+      "LessonTask7 >= 1.0.0",
+      "LessonTask8 >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -223,6 +243,9 @@
             },
             "C:\\Users\\khon.iv\\RiderProjects\\Lesson1\\LessonTask7\\LessonTask7.csproj": {
               "projectPath": "C:\\Users\\khon.iv\\RiderProjects\\Lesson1\\LessonTask7\\LessonTask7.csproj"
+            },
+            "C:\\Users\\khon.iv\\RiderProjects\\Lesson1\\LessonTask8\\LessonTask8.csproj": {
+              "projectPath": "C:\\Users\\khon.iv\\RiderProjects\\Lesson1\\LessonTask8\\LessonTask8.csproj"
             }
           }
         }

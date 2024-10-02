@@ -20,6 +20,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MethodsClassLibrary", "Meth
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LessonTask7", "LessonTask7\LessonTask7.csproj", "{1D88D647-1A5E-4B4C-AC9E-135C39481A9E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LessonTask8", "LessonTask8\LessonTask8.csproj", "{077055B6-8252-4BB5-B908-1BA5523FFA04}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -67,5 +69,9 @@ Global
 		{1D88D647-1A5E-4B4C-AC9E-135C39481A9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1D88D647-1A5E-4B4C-AC9E-135C39481A9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1D88D647-1A5E-4B4C-AC9E-135C39481A9E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{077055B6-8252-4BB5-B908-1BA5523FFA04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{077055B6-8252-4BB5-B908-1BA5523FFA04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{077055B6-8252-4BB5-B908-1BA5523FFA04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{077055B6-8252-4BB5-B908-1BA5523FFA04}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

@@ -27,5 +27,21 @@ public static class MethodsClass
         foreach (var i in array)
             Console.Write(i + " ");
     }
+    
+    public enum Months
+    {
+        January = 1,
+        February,
+        March,
+        April,
+        May,
+        June,
+        July,
+        August,
+        September,
+        October,
+        November,
+        December
+    }
 }
     
