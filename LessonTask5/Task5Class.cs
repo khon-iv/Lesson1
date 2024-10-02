@@ -14,6 +14,7 @@ public class Task5Class : TaskBaseClass
     
     public override void Run()
     {
+        PrintTaskInfo();
         var month = (Months)GetNumberOfMonth();
         Console.WriteLine(month);
     }

@@ -19,6 +19,7 @@ public class Task6Class : TaskBaseClass
 
     public override void Run()
     {
+        PrintTaskInfo();
         Console.WriteLine("Введите размер массива");
         var arraySize = MethodsClass.GetNumber();
         var numbers = GenerateNumbers(arraySize);

@@ -13,6 +13,7 @@ public class Task4Class : TaskBaseClass
 
     public override void Run()
     {
+        PrintTaskInfo();
         int[] array = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 0 };
         var minValue = array[0];
         var sum = 0;

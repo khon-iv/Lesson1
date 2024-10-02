@@ -1,12 +1,13 @@
-﻿using LessonTask;
+﻿using System.Security.Cryptography;
+using LessonTask;
 using MethodsClassLibrary;
 
 namespace LessonTask1
 {
     public class Task1Class : TaskBaseClass
     {
-        protected override string Name { get; set; } = "Задание1. Задача остаток от деления";
-        protected override string Description { get; set; } = 
+        protected override string Name { get; set; }  = "Задание1. Задача остаток от деления";
+        protected override string Description { get; set; }  = 
             "Напишите простую программу для вывода результатов операции деления.\n" +
             "Создайте две целочисленные переменные - a и b.\n" +
             "Создайте третью целочисленную переменную, называемую quotient (результат деления), " +
@@ -17,6 +18,7 @@ namespace LessonTask1
 
         public override void Run()
         {
+            PrintTaskInfo();
             Console.WriteLine("Введите первое число");
             int a = MethodsClass.GetNumber();
             Console.WriteLine("Введите второе число (не 0)");
