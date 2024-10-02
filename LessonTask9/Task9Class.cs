@@ -29,23 +29,19 @@ public class Task9Class : TaskBaseClass
         PrintDepositAmountByMonths(firstDeposit, NumberForCalculateAmountByMonths);
     }
 
-    private void PrintIncomeByMonths(double amount, int monthNumber)
+    private static void PrintIncomeByMonths(double amount, int monthNumber)
     {
         Console.Write(Math.Round(amount * DepositRates * 0.01, 2));
-        if (monthNumber > 1)
-        {
-            Console.Write("\t");
-            PrintIncomeByMonths(Math.Round(amount + amount * DepositRates * 0.01), monthNumber - 1);
-        }
+        if (monthNumber <= 1) return;
+        Console.Write("\t");
+        PrintIncomeByMonths(Math.Round(amount + amount * DepositRates * 0.01), monthNumber - 1);
     }
     
-    private void PrintDepositAmountByMonths(double amount, int monthNumber)
+    private static void PrintDepositAmountByMonths(double amount, int monthNumber)
     {
         Console.Write(Math.Round(amount + amount * DepositRates * 0.01, 2));
-        if (monthNumber > 1)
-        {
-            Console.Write("\t");
-            PrintDepositAmountByMonths(Math.Round(amount + amount * DepositRates * 0.01, 2), monthNumber - 1);
-        }
+        if (monthNumber <= 1) return;
+        Console.Write("\t");
+        PrintDepositAmountByMonths(Math.Round(amount + amount * DepositRates * 0.01, 2), monthNumber - 1);
     }
 }
