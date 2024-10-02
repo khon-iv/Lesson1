@@ -8,12 +8,12 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\Task1\Task1.csproj" />
-      <ProjectReference Include="..\Task2\Task2.csproj" />
-      <ProjectReference Include="..\Task3\Task3.csproj" />
-      <ProjectReference Include="..\Task4\Task4.csproj" />
-      <ProjectReference Include="..\Task5\Task5.csproj" />
-      <ProjectReference Include="..\Task6\Task6.csproj" />
+      <ProjectReference Include="..\LessonTask1\LessonTask1.csproj" />
+      <ProjectReference Include="..\LessonTask2\LessonTask2.csproj" />
+      <ProjectReference Include="..\LessonTask3\LessonTask3.csproj" />
+      <ProjectReference Include="..\LessonTask4\LessonTask4.csproj" />
+      <ProjectReference Include="..\LessonTask5\LessonTask5.csproj" />
+      <ProjectReference Include="..\LessonTask6\LessonTask6.csproj" />
     </ItemGroup>
 
 </Project>

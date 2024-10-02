@@ -1,0 +1,113 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0": {
+      "LessonTask/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/LessonTask.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/LessonTask.dll": {}
+        }
+      },
+      "MethodsClassLibrary/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/MethodsClassLibrary.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MethodsClassLibrary.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "LessonTask/1.0.0": {
+      "type": "project",
+      "path": "../LessonTask/LessonTask.csproj",
+      "msbuildProject": "../LessonTask/LessonTask.csproj"
+    },
+    "MethodsClassLibrary/1.0.0": {
+      "type": "project",
+      "path": "../MethodsClassLibrary/MethodsClassLibrary.csproj",
+      "msbuildProject": "../MethodsClassLibrary/MethodsClassLibrary.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0": [
+      "LessonTask >= 1.0.0",
+      "MethodsClassLibrary >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\khon.iv\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\khon.iv\\RiderProjects\\Lesson1\\LessonTask3\\LessonTask3.csproj",
+      "projectName": "LessonTask3",
+      "projectPath": "C:\\Users\\khon.iv\\RiderProjects\\Lesson1\\LessonTask3\\LessonTask3.csproj",
+      "packagesPath": "C:\\Users\\khon.iv\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\khon.iv\\RiderProjects\\Lesson1\\LessonTask3\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\khon.iv\\AppData\\Roaming\\NuGet\\NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "projectReferences": {
+            "C:\\Users\\khon.iv\\RiderProjects\\Lesson1\\LessonTask\\LessonTask.csproj": {
+              "projectPath": "C:\\Users\\khon.iv\\RiderProjects\\Lesson1\\LessonTask\\LessonTask.csproj"
+            },
+            "C:\\Users\\khon.iv\\RiderProjects\\Lesson1\\MethodsClassLibrary\\MethodsClassLibrary.csproj": {
+              "projectPath": "C:\\Users\\khon.iv\\RiderProjects\\Lesson1\\MethodsClassLibrary\\MethodsClassLibrary.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      }
+    },
+    "frameworks": {
+      "net8.0": {
+        "targetAlias": "net8.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.402/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

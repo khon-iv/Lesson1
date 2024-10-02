@@ -1,6 +1,6 @@
-﻿namespace MethodsLibrary;
+﻿namespace MethodsClassLibrary;
 
-public class MethodsClass
+public static class MethodsClass
 {
     public static int GetNumber()
     {

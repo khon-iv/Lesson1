@@ -1,10 +1,10 @@
-﻿using Task1;
-using Task2;
-using Task3;
+﻿using LessonTask1;
+using LessonTask2;
+using LessonTask3;
+using LessonTask5;
+using LessonTask6;
+using MethodsClassLibrary;
 using Task4;
-using Task5;
-using Task6;
-using MethodsLibrary;
 
 namespace Lesson1;
 
