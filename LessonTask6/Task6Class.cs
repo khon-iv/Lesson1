@@ -21,11 +21,11 @@ public class Task6Class : TaskBaseClass
     {
         PrintTaskInfo();
         // минимальный размер массива 1
-        var arraySize = MethodsClass.GetNumber("Введите размер массива", 1);
+        var arraySize = MethodsClass.GetNumber("Введите размер массива (не менее 1)", 1);
         var numbers = GenerateNumbers(arraySize);
         Console.WriteLine("Сгенерированный массив:");
         PrintNumbers(numbers);
-        Console.WriteLine();
+        Console.WriteLine("Перевернутый массив:");
         Reverse(ref numbers);
         PrintNumbers(numbers);
     }

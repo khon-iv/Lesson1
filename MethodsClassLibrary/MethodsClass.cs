@@ -14,14 +14,14 @@ public static class MethodsClass
         var inputLine = Console.ReadLine();
         while (!Int32.TryParse(inputLine, out int num))
         {
-            Console.WriteLine("Введены некорректные данные \n");
+            Console.WriteLine("Введенное значение не является числом");
             inputLine = Console.ReadLine();
         }
 
         var number = Int32.Parse(inputLine);
         if (number < min || number > max)
         {
-            Console.WriteLine("Введены некорректные данные \n");
+            Console.WriteLine("Введено некорректное число");
             number = GetNumber( message, min, max);
         }
         

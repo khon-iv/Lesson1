@@ -28,48 +28,56 @@ public class Task11Class : TaskBaseClass
         var field = new int[9];
         var winFlag = false;
         var isPlayer1 = true;
-        var player1Cell = "";
-        var player2Cell = "";
+        var player1Cells = "";
+        var player2Cells = "";
         
         while (!winFlag && (field.Contains(0)))
         {
             if (isPlayer1)
             {
-                var index = MethodsClass.GetNumber("Ход первого игрока", 1, 9) - 1;
-                while (field[index] != 0)
-                {
-                    Console.WriteLine("Квадрат занят");
-                    index = MethodsClass.GetNumber("Ход первого игрока", 1, 9) - 1;
-                }
-
-                field[index] = 1;
-                // проверка на выигрыш
-                player1Cell += (index + 1).ToString();
-                winFlag = IsWinningCombination(player1Cell);
-                isPlayer1 = false;
-                
-                //PrintField(field); // раскомментировать, чтобы поле отображалось после каждого хода первого игрока
+                PlayerMove(ref field, ref isPlayer1, ref player1Cells);
+                winFlag = IsWinningCombination(player1Cells);
             }
             else
             {
-                var index = MethodsClass.GetNumber("Ход второго игрока", 1, 9) - 1;
-                while (field[index] != 0)
-                {
-                    Console.WriteLine("Квадрат занят");
-                    index = MethodsClass.GetNumber("Ход второго игрока", 1, 9) - 1;
-                }
-
-                field[index] = 2;
-                player2Cell += (index + 1).ToString();
-                winFlag = IsWinningCombination(player2Cell);
-                isPlayer1 = true;
-                
-                //PrintField(field); // раскомментировать, чтобы поле отображалось после каждого хода второго игрока
+                PlayerMove(ref field, ref isPlayer1, ref player2Cells);
+                winFlag = IsWinningCombination(player2Cells);
             }
         }
 
         Console.WriteLine(winFlag ? "Игра закончилась выигрышом игрока" : "Игра закончилась ничьей");
         PrintField(field);
+    }
+
+    private static void PlayerMove(ref int[] field, ref bool isPlayer1, ref string playerCells)
+    {
+        string outputMessage;
+        int cellValue;
+
+        if (isPlayer1)
+        {
+            outputMessage = "Ход первого игрока";
+            cellValue = 1;
+        }
+        else
+        {
+            outputMessage = "Ход второго игрока";
+            cellValue = 2;
+        }
+        
+        var cellIndex = MethodsClass.GetNumber(outputMessage, 1, 9) - 1;
+        
+        while (field[cellIndex] != 0)
+        {
+            Console.WriteLine("Квадрат занят");
+            cellIndex = MethodsClass.GetNumber(outputMessage, 1, 9) - 1;
+        }
+        
+        field[cellIndex] = cellValue;
+        playerCells += (cellIndex + 1).ToString();
+        isPlayer1 = !isPlayer1;
+                
+        //PrintField(field); // раскомментировать, чтобы поле отображалось после каждого хода первого игрока
     }
 
     //Выигрышные комбинации

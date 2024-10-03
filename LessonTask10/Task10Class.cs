@@ -18,12 +18,12 @@ public class Task10Class : TaskBaseClass
     public override void Run()
     {
         PrintTaskInfo();
-        var monthNumber = MethodsClass.GetNumber("Введите прорядковый номер месяца", 1, 12);
-        var year = MethodsClass.GetNumber("Введите год");
+        var monthNumber = MethodsClass.GetNumber("Введите прорядковый номер месяца (число от 1 до 12)", 1, 12);
         
         switch (monthNumber)
         {
             case 2:
+                var year = MethodsClass.GetNumber("Введите год");
                 if ((year % 4 == 0) && ((year % 100 != 0) || (year % 400 == 0)))
                     Console.WriteLine(29);
                 else 

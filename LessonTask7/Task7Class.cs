@@ -28,7 +28,6 @@ public class Task7Class : TaskBaseClass
         }
         else
         {
-            Console.WriteLine("Введите расстояние, на которое первый опередил второго S");
             var S = MethodsClass.GetNumber("Введите расстояние, на которое первый опередил второго S", 0);
             S += (V1 - V2) / 2;
             Console.WriteLine($"Расстояние между автомобилями через 30 минут: {S}");

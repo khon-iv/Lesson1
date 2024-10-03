@@ -10,10 +10,12 @@ namespace LessonTask2
             "вместо него следует вывести слово «Fizz». Если число кратно 5, выводим «Buzz». Если число кратно как 3, " +
             "так и 5 (например, 15 или 30), то выводим «FizzBuzz»";
         
+        private const int MinValue = 1;
+        private const int MaxValue = 100;
         public override void Run()
         {
             PrintTaskInfo();
-            for (int i = 1; i < 101; i++)
+            for (int i = MinValue; i <= MaxValue; i++)
             {
                 if (i % 15 == 0)
                     Console.Write("FizzBizz ");
